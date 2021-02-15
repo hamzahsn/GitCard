@@ -1,0 +1,52 @@
+.baseButton {
+  /* Fixture */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* Font & Text */
+  font-size: 0.8rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: normal;
+  text-decoration: none solid black;
+  text-indent: 0;
+  text-transform: none;
+  vertical-align: baseline;
+  white-space: normal;
+  word-spacing: 0;
+  margin: 0.9rem 0.6rem;
+  padding: 0.9rem 0.9rem;
+  text-align: center;
+  height: 2.5rem;
+  min-width: 6.2rem;
+  /* Color & Background */
+  background-color: #130f40;
+  color: #35353b;
+  cursor: pointer;
+  overflow: hidden;
+  border: 1px solid #35353b;
+  /* Effects */
+  border-radius: 3rem;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out; }
+
+.baseButton.primary {
+  background: inherit;
+  color: #35353b; }
+
+.baseButton.secondary {
+  background: #e4e4f2;
+  color: #0d1014; }
+
+.baseButton:hover {
+  cursor: pointer;
+  background: #8e2de2;
+  color: #e4e4f2; }
+
+.baseButton:disabled,
+button[disabled] {
+  cursor: not-allowed;
+  transition: none;
+  background-color: #ccc;
+  color: #666; }
