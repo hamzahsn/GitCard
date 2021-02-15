@@ -1,0 +1,25 @@
+@import 'https://fonts.googleapis.com/css?family=Architects+Daughter';
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+$font-stack: 'Architects Daughter', sans-serif;
+
+html,
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+body {
+  font-family: 'Architects Daughter', sans-serif;
+  background: #8e2de2;
+  background: linear-gradient(to right, #4a00e0, #8e2de2);
+  background-attachment: fixed;
+  height: 100%;
+}
