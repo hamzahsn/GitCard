@@ -7,7 +7,7 @@
   background: #fff;
   border-radius: 1.6rem;
   overflow: hidden;
-  height: 50rem;
+  max-height: 55rem;
   width: 30rem;
 
   &.primary {
@@ -30,7 +30,6 @@
 @media screen and (max-width: 480px) {
   .CardContainer {
     padding: 3.25rem;
-    height: 45rem;
     width: 25rem;
   }
 }
