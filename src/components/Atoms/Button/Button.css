@@ -30,14 +30,12 @@
   /* Effects */
   border-radius: 3rem;
   transition: background 0.3s ease-in-out, color 0.3s ease-in-out; }
-
-.baseButton.primary {
-  background: inherit;
-  color: #35353b; }
-
-.baseButton.secondary {
-  background: #e4e4f2;
-  color: #0d1014; }
+  .baseButton.primary {
+    background: inherit;
+    color: #35353b; }
+  .baseButton.secondary {
+    background: #e4e4f2;
+    color: #0d1014; }
 
 .baseButton:hover {
   cursor: pointer;
