@@ -25,7 +25,7 @@ module.exports = {
     filename: 'js/[name].[contenthash].bundle.js',
     chunkFilename: 'js/[name].[contenthash].bundle.js',
     assetModuleFilename: 'images/[hash][ext][query]',
-    publicPath: '/'
+    publicPath: IS_DEV ? '/' : ''
   },
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx'],
@@ -128,8 +128,7 @@ module.exports = {
       title: 'Github profiler',
       template: paths.root + '/public/index.html',
       filename: 'index.html',
-      inject: 'body',
-      publicPath: '/'
+      inject: 'body'
     }),
     IS_DEV && new BundleAnalyzerPlugin(),
     !IS_DEV &&
@@ -155,7 +154,6 @@ module.exports = {
     open: IS_DEV,
     compress: true,
     hot: IS_DEV,
-    publicPath: '/',
     stats: 'errors-only',
     overlay: IS_DEV,
     port: 8080
