@@ -1,0 +1,39 @@
+.colorContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column; }
+
+.colorDisplay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12.5rem;
+  height: 1.8rem;
+  border-radius: 1.5rem;
+  margin: 0.6rem auto; }
+
+/* COLOR PICKER */
+.customLayout {
+  padding: 1rem;
+  border-radius: 0.7rem;
+  background: #33333a;
+  box-shadow: 0 0.3rem 0.7rem #999; }
+
+.customLayout .react-colorful__saturation {
+  margin: 0.9rem 0;
+  border-radius: 0.3rem;
+  border-bottom: none; }
+
+.customLayout .react-colorful__hue {
+  order: -1; }
+
+.customLayout .react-colorful__hue,
+.customLayout .react-colorful__alpha {
+  height: 0.8rem;
+  border-radius: 0.3rem; }
+
+.customLayout .react-colorful__hue-pointer,
+.customLayout .react-colorful__alpha-pointer {
+  width: 1.2rem;
+  height: 1.2rem; }
