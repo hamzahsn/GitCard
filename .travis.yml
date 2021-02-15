@@ -1,0 +1,36 @@
+notifications:
+  email:
+    recipients:
+      - amdouni.hamza.hsn@gmail.com
+
+    on_success: change
+    on_failure: always
+
+language: node_js
+
+node_js:
+  - 14
+
+install:
+  - npm i
+
+cache:
+  directories:
+    - ~/.npm
+    - ./node_modules
+    - ~/.cache
+  override:
+    - npm i
+
+script:
+  - npm i
+  - npm run test
+  - npm run build:profile
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  local_dir: dist
+  on:
+    branch: gh-pages
