@@ -1,0 +1,24 @@
+.magicCardContainer {
+  display: flex;
+  flex-direction: column; }
+
+.ownerSection {
+  display: flex;
+  align-items: center; }
+
+.descriptionSection {
+  display: flex;
+  align-items: flex-start; }
+
+.starSection {
+  display: flex;
+  align-items: center; }
+
+.contributorsSection {
+  display: flex; }
+
+.contentTitles {
+  white-space: nowrap;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 10px; }
