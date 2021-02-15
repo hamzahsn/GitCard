@@ -1,0 +1,29 @@
+.CardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 6.25rem;
+  background: #fff;
+  border-radius: 1.6rem;
+  overflow: hidden;
+  height: 50rem;
+  width: 30rem;
+  overflow: hidden; }
+  .CardContainer.primary {
+    background: #fdfdff; }
+  .CardContainer.secondary {
+    background: #fdfdff;
+    color: #fdfdff; }
+
+.cardHeader {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #35353b;
+  white-space: nowrap; }
+
+@media screen and (max-width: 480px) {
+  .CardContainer {
+    padding: 3.25rem;
+    height: 45rem;
+    width: 25rem; } }
