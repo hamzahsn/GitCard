@@ -1,0 +1,5 @@
+.iconPicker {
+  background: #c7d2dd; }
+
+.iconPicker > *:first-child {
+  border: none; }
