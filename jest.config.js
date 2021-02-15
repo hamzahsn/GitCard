@@ -18,8 +18,10 @@ module.exports = {
   ],
   roots: ['<rootDir>'],
   transform: {
-    '^.+\\.tsx?$': 'ts-jest'
+    '^.+\\.tsx?$': 'ts-jest',
+    'node_modules/react-github-btn/.+\\.(j|t)sx?$': 'ts-jest'
   },
+  transformIgnorePatterns: ['node_modules/(?!react-github-btn/.*)'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   setupFilesAfterEnv: [
     '<rootDir>/__tests__/config/importJestDOM.ts',
@@ -30,8 +32,9 @@ module.exports = {
     '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':
       '<rootDir>/__tests__/__mock__/fileMock.ts',
     '\\.(css|scss)$': '<rootDir>/__tests__/__mock__/styleMock.ts',
-    '^@atoms(.*)$': '<rootDir>/Atoms$1',
-    '^@organisms(.*)$': '<rootDir>/Organisms$1',
+    '^@atoms(.*)$': '<rootDir>/components/Atoms$1',
+    '^@organisms(.*)$': '<rootDir>/components/Organisms$1',
+    '^@pages(.*)$': '<rootDir>/components/pages$1',
     '^@utils(.*)$': '<rootDir>/Utils$1',
     '^@services(.*)$': '<rootDir>/Services$1'
   }
