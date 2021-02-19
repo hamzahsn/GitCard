@@ -5,15 +5,15 @@
 
 ## Introduction
 
-GitCard is a small app made with :love: with Typescript, React, and bundled with webpack, which was basically a challenge made by the vikings of superchat, and I accepted it with a spirit of a warrior :axe:
+GitCard is a small app made with ❤️ with Typescript, React, and bundled with webpack, which is basically creating a custom github card for a repository to any github user
 
 ## Quick start
 
 Just close this repo into your own repository and then let the magic start :fireworks: :tada:
 
 ```bash
-git clone git@github.com:hamzahsn/superchat-frontend-challenge.git
-cd superchat-frontend-challenge
+git clone git@github.com:hamzahsn/GitCard.git
+cd GitCard
 npm install
 npm run start:profile
 ```
@@ -52,7 +52,7 @@ I got inspired from the atomic structure to create this project, where I have pu
 
 ## Deployment application
 
-This application is deployed by [github Pages](https://pages.github.com/) where you can see it when you navigate to this link: [GitCard](https://hamzahsn.github.io/superchat-frontend-challenge/) .
+This application is deployed by [github Pages](https://pages.github.com/) where you can see it when you navigate to this link: [GitCard](https://hamzahsn.github.io/GitCard/) .
 
 ## Like it?
 
