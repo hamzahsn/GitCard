@@ -53,7 +53,7 @@
     "react-dom": "^17.0.1",
     "react-fa-icon-picker": "^1.0.3",
     "react-github-btn": "^1.2.0",
-    "react-hook-form": "^6.15.1",
+    "react-hook-form": "^6.15.3",
     "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
